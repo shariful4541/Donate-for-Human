@@ -28,6 +28,7 @@ body {
     font-size: 100px;
     color: #fff;
     margin-bottom: 18px;
+    font-weight: 600;
 }
 
 .banner-section p {
@@ -66,6 +67,7 @@ body {
 .donate-text h1 {
     font-size: 66px;
     margin-bottom: 24px;
+    font-weight: 600;
 }
 
 .donate-text p {
@@ -283,6 +285,7 @@ body {
 .donation-team-section h1 {
     font-size: 75px;
     margin-bottom: 42px;
+    font-weight: 500;
 }
 
 .donation-team-section p {
@@ -320,4 +323,70 @@ body {
     color: tomato;
     border: 2px solid tomato;
     box-shadow: 3px 3px 15px tomato;
+}
+
+
+/* contact section */
+.donation-contact-section {}
+
+.contact-content {}
+
+.contact-content h1 {
+    font-size: 75px;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+.contact-content p {
+    font-size: 24px;
+    color: #767676;
+    padding: 0 515px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    padding: 80px;
+}
+
+.form-section {
+    background: #ffef814f;
+    padding: 100px 74px;
+    width: 785px;
+    margin: auto;
+}
+
+.text-ton {
+    font-size: 16px;
+    padding: 19px 50px;
+    background: #e3d7d7;
+    border: none;
+    font-weight: 700;
+    color: #e3d7d7;
+    border-radius: 5px 0 0 5px;
+    margin-right: 0;
+}
+
+.contact-ttn {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    background: tomato;
+    padding: 16px 48px;
+    border-radius: 0px 5px 5px 0;
+    margin-top: 10px;
+    margin-left: -6px;
+    padding-bottom: 19px;
+}
+
+/* footer section */
+.footer-section {
+    padding: 100px;
+    background: black;
+}
+
+.footer {}
+
+.footer p {
+    color: #fff;
+    font-size: 22px;
 }
