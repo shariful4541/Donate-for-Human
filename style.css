@@ -184,7 +184,7 @@ body {
 /* donatino collect section */
 
 .donation-contri-section {
-    padding: 100px;
+    /* padding: 100px; */
 }
 
 .donation-main-section {
@@ -226,4 +226,49 @@ body {
 .pictur-section img {
     max-width: 100%;
     height: 600px;
+    border-radius: 10px;
+}
+
+/* vlog-section */
+.donation-vlog-section {
+    /* padding: 20px; */
+}
+
+.donation-vlog-main-section {}
+
+.donation-vlog-item {
+    display: flex;
+}
+
+.donation-vlog-picture {
+    width: 45%;
+    margin: 5%;
+    text-align: right;
+}
+
+.vlog-picture {}
+
+.vlog-picture img {
+    width: 100%;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.donation-vlog-description {
+    width: 45%;
+    margin: 5%;
+
+}
+
+.vlog-text {}
+
+.vlog-text h1 {
+    font-size: 70px;
+    margin-bottom: 46px;
+}
+
+.vlog-text p {
+    font-size: 21px;
+    color: #767676;
+    margin-bottom: 54px;
 }
